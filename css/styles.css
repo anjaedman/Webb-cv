@@ -2,7 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Georama:ital@1&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Georama&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
 
 @media only screen and (max-width: 600px) {}
 
@@ -22,32 +28,40 @@ p {
     text-align: center;
     font-size: 40px;
     font-family: 'Inter', sans-serif;
-
+  
 
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Ingrid Darling', cursive;
     font-weight: lighter;
-
+    letter-spacing: 2px;
 
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Georama', sans-serif;
+    
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Georama', sans-serif;
+    line-height: 22px;
+    font-weight: lighter;
+   
 }
 
 h4 {
     font-size: 18px;
     font-family: 'Georama', sans-serif;
+    line-height: 22px;
+    font-weight: lighter;
+    
 
+   
 }
 
 .header {
@@ -165,6 +179,7 @@ h4 {
 .cards {
     background-color: aqua;
     color: white;
+  
 
 }
 
@@ -180,6 +195,8 @@ h4 {
 
 }
 
+
+
 .profilbild {
     background-color: black;
 }
@@ -192,8 +209,11 @@ h4 {
     height: 596px;
     width: 505px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
+    
+
 }
+
 
 .card-erfarenhet {
 
@@ -201,11 +221,17 @@ h4 {
     border-style: solid;
     border-width: 15px;
     border-color: #A03198;
-
     height: 596px;
     width: 505px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 90px;
+    
+}
+
+.card-erfarenhet h4 {
+    text-align: left;
+    padding-left: 80px;
+    
 }
 
 .card-kontakt {
@@ -219,6 +245,11 @@ h4 {
     text-align: center;
     padding-top: 30px;
 
+}
+
+.card-kontakt .linkedin {
+    font-size: 90px;
+    color: #8F1546; 
 }
 
 .card-privat {
@@ -247,6 +278,64 @@ h4 {
 
 }
 
+.github {
+    font-size: 90px;
+    color: #8EA83B;
+}
+.linkedin {
+    font-size: 90px;
+    color: #8EA83B;
+}
+
+.booking-card {
+    display: flex;
+    background-color: #8F1546;
+    border: 2px;
+    border-color: #5b0d2c;
+    border-style: solid;
+    padding: 0px;
+}
+
+.contact-us h1 {
+    text-align: center;
+} 
+.contact-form h3 {
+    text-align: center;
+   
+}
+input {
+    height: 30px;
+}
+
+input[type=text]:focus {
+    background-color:#e57da7;
+   
+}
+input[type=email]:focus {
+    background-color: #e57da7;
+}
+input[type=tel]:focus {
+    background-color: #e57da7;
+}
+input[type=submit] {
+    background-color: #8F1546;
+    color: white;  
+}
+.booking-form {
+    display: grid;
+    background-color:  #5a2138;
+    padding: 20px;
+    border: 2px;
+    border-color: #5b0d2c;
+    border-style: solid;
+    /* box-shadow: 5px 10px #5a2138; */
+    justify-self: center;
+}
+.send-button2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 50px;
+}
 
 .footer {
     background-color: black;
@@ -255,76 +344,3 @@ h4 {
 }
 
 
-.booking-card {
-    display: flex;
-    background-color: #f0ffff88;
-    padding: 20px;
-}
-.booking-form {
-    display: grid;
-    background-color: #9e85658e;
-    padding: 50px;
-}
-.contact-us {
-    background-color: #f0ffff88;
-    padding: 50px;
-    color: black;
-    width: 400px;
-    justify-content: center;
-}
-.contact-form {
-    display: grid;
-    background-color: #9e85658e;
-    padding: 20px;
-    border: 2px;
-    border-color: #804f2d9a;
-    border-style: solid;
-    box-shadow: 5px 10px #35201241;
-    width: 350px;
-    justify-self: center;
-    /* justify-items: center; */
-}
-.contact-us h1 {
-    text-align: center;
-}
-.contact-form h3 {
-    text-align: center;
-}
-input {
-    height: 30px;
-}
-input[type=text]:focus {
-    background-color: #5ef8bd85;
-}
-input[type=email]:focus {
-    background-color: #5ef8bd85;
-}
-input[type=tel]:focus {
-    background-color: #5ef8bd85;
-}
-input[type=message] {
-    height: 150px;
-}
-.send-button {
-    justify-self: center;
-}
-input[type=submit] {
-    background-color: #5ef8bd;
-}
-.booking-form {
-    display: grid;
-    background-color: #9e85658e;
-    padding: 20px;
-    border: 2px;
-    border-color: #804f2d9a;
-    border-style: solid;
-    box-shadow: 5px 10px #35201241;
-    justify-self: center;
-}
-.send-button2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-input .villkor:checked {
-    background-color: #5ef8bd;
-}
