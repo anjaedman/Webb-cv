@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
 
+@media only screen and (max-width: 600px) {}
 
 body {
     display: flex;
@@ -28,6 +29,7 @@ p {
 h1 {
     font-size: 40px;
     font-family: 'Ingrid Darling', cursive;
+    font-weight: lighter;
 
 
 }
@@ -65,19 +67,19 @@ h4 {
 
 .mainholder {
     display: flex;
-    background-color: rgb(53, 53, 53);
+    background-color: black(53, 53, 53);
     justify-content: center;
 }
 
 .sidebar {
     display: flex;
     gap: 5px;
-    background-color: rgb(44, 39, 39);
+    background-color:black;
     height: 100%;
     /* width: 100%; */
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
+    margin-right: 5px;
 }
 
 .sidebar div {
@@ -184,7 +186,6 @@ h4 {
 
 .card-utbildning {
     background-color: black;
-    background-color: black;
     border-style: solid;
     border-width: 15px;
     border-color: #7A2674;
@@ -251,4 +252,79 @@ h4 {
     background-color: black;
     height: 25%;
     width: 100%;
+}
+
+
+.booking-card {
+    display: flex;
+    background-color: #f0ffff88;
+    padding: 20px;
+}
+.booking-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 50px;
+}
+.contact-us {
+    background-color: #f0ffff88;
+    padding: 50px;
+    color: black;
+    width: 400px;
+    justify-content: center;
+}
+.contact-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 20px;
+    border: 2px;
+    border-color: #804f2d9a;
+    border-style: solid;
+    box-shadow: 5px 10px #35201241;
+    width: 350px;
+    justify-self: center;
+    /* justify-items: center; */
+}
+.contact-us h1 {
+    text-align: center;
+}
+.contact-form h3 {
+    text-align: center;
+}
+input {
+    height: 30px;
+}
+input[type=text]:focus {
+    background-color: #5ef8bd85;
+}
+input[type=email]:focus {
+    background-color: #5ef8bd85;
+}
+input[type=tel]:focus {
+    background-color: #5ef8bd85;
+}
+input[type=message] {
+    height: 150px;
+}
+.send-button {
+    justify-self: center;
+}
+input[type=submit] {
+    background-color: #5ef8bd;
+}
+.booking-form {
+    display: grid;
+    background-color: #9e85658e;
+    padding: 20px;
+    border: 2px;
+    border-color: #804f2d9a;
+    border-style: solid;
+    box-shadow: 5px 10px #35201241;
+    justify-self: center;
+}
+.send-button2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+input .villkor:checked {
+    background-color: #5ef8bd;
 }

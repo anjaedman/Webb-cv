@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Georama&display=swap" rel="stylesheet">
 </style>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anja Edmans CV</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 
 
@@ -36,55 +25,91 @@
         <div class="mainholder">
             <div class="sidebar">
                 <div class="button-profil">
-                    <a href="index.html">
+                    <a href="../index.html">
                         <p>PROFIL</p>
                     </a>
                 </div>
 
 
                 <div class="button-utbildning">
-                    <a href="pages/Utbildning.html"><p>UTBILDNING</p></a>
+                    <a href="Utbildning.html">
+                        <p>UTBILDNING</p>
+                    </a>
                 </div>
 
 
                 <div class="button-erfarenhet">
-                    <a href="pages/erfarenhet.html"><p>ERFARENHET</p></a>
+                    <a href="erfarenhet.html">
+                        <p>ERFARENHET</p>
+                    </a>
                 </div>
 
 
                 <div class="button-kontakt">
-                    <a href="pages/kontakt.html"><p>KONTAKT</p></a>
+                    <a href="kontakt.html">
+                        <p>KONTAKT</p>
+                    </a>
                 </div>
 
 
                 <div class="button-privat">
-                    <a href="pages/privat.html"><p>PRIVAT</p></a>
+                    <a href="privat.html">
+                        <p>PRIVAT</p>
+                    </a>
                 </div>
 
 
                 <div class="button-portfolio">
-                    <a href="pages/portfolio.html"><p>PORTFOLIO</p></a>
+                    <a href="portfolio.html">
+                        <p>PORTFOLIO</p>
+                    </a>
                 </div>
             </div>
             <div class="cards">
-               
 
-            <div class="card-kontakt">
-                <h2>KONTAKT</h2>
-                <h3> skriv så hör jag av mig.</h3>
-                <h3>eller kontakta mig på  Linkedin</h3>
-                <div> 
-                    <img src="../assets/anja-linkedin.png" alt="linkedin qr-kod" height="108">
+
+                <div class="card-kontakt">
+                    <h2>KONTAKT</h2>
+                    <h3> skriv så hör jag av mig.</h3>
+                    <h3>eller kontakta mig på Linkedin</h3>
+                    <div>
+                        <img src="../assets/anja-linkedin.png" alt="linkedin qr-kod" height="108">
+                    </div>
+
+
+
+                    <section class="booking-card">
+                        <form class="booking-form">
+                            Från: <input type="date" name="from" id="from">
+                            Till: <input type="date" name="to" id="to"><br>
+                            Namn:
+                            <input type="text" name="firstname" placeholder="Namn Namnsson"><br>
+                            E-mail:
+                            <input type="email" name="mail" placeholder="Example@mail.com"> <br>
+                            Telefon:
+                            <input type="tel" name="telefonnummer" placeholder="0701234567">
+                        </form>
+                        <form class="booking-form">
+                            Antal stugor: <input type="number" name="" id="">
+                            Vuxna: <input type="number" name="" id="">
+                            Barn: <input type="number" name="" id="">
+                        </form>
                 </div>
-
+                </section>
+                <div class="send-button2">Godkänn villkor för bokning:
+                    <input class="villkor" type="checkbox" name="villkor" id="">
+                    <br>
+                    <input type="submit" value="Bekräfta bokning">
+                </div>
+                </section>
             </div>
 
-          
-
-            </div>
 
 
         </div>
+
+
+    </div>
 
     </div>
 
